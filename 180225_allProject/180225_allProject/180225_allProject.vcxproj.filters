@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\wust_vision">
+      <UniqueIdentifier>{3e9e0ffb-432f-4260-96d5-fa1f10c1a9d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\wust_vision">
+      <UniqueIdentifier>{b430fcc0-f41e-4aed-8934-f9ea73819f4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\classis_mr.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\visiontools.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\frontposition_mr.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\mykinect.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\vibe.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\balltracking.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\CameraDS.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\glshow_cvAPI.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="wust_vision\My3DKalman.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+    <ClCompile Include="findCircle_Color.cpp">
+      <Filter>源文件\wust_vision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wust_vision\classis_mr.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="wust_vision\visiontools.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="wust_vision\frontposition_mr.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="wust_vision\mykinect.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="wust_vision\vibe.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="wust_vision\balltracking.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="wust_vision\CameraDS.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="wust_vision\glshow_cvAPI.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="wust_vision\My3DKalman.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="fit.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+    <ClInclude Include="findCircle_Color.h">
+      <Filter>头文件\wust_vision</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
